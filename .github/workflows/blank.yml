@@ -6,7 +6,7 @@ on:
       runs-on:
         description: 'Run on' # JSON to be converted to the value of the "runs-on" configuration for the job.
         required: false
-        default: 'sjelisonlOrg runner'
+        default: 'ubuntu22.04'
 
 permissions:
   id-token: write # This is required for requesting the JWT
